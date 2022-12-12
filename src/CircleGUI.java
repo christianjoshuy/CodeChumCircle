@@ -34,6 +34,7 @@ public class CircleGUI extends JFrame{
 
     public static void main(String[] args) {
         CircleGUI app = new CircleGUI();
+        app.setTitle("CircleGUI");
         app.setContentPane(app.pnlMain);
         app.setSize(700, 700);
         app.setDefaultCloseOperation(EXIT_ON_CLOSE);
